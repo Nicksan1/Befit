@@ -127,10 +127,19 @@ p {
 	color: black;
 }
 
-.click-item {
 
+.click-item {
+	/*position: absolute;*/
+	margin: 20px 5px;
 }
 
-.photo {
+/*
+.click-item:active {
+	border: none;
+}*/
 
+
+.photo {
+	/*position: relative;
+	margin: 50px auto;*/
 }
