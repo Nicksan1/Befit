@@ -1,23 +1,10 @@
-let slider = $("#photos");
-
-slider.slick({
-  dots: false,
-  arrows: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 2,
-  centerMode: true,
-  variableWidth: true
+$(document).ready(function () {
+  $('.slick__slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    speed: 3000,
+  });
 });
-
-
-/*
-slider.slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  fade: true,
-  arrows: false,
-  autoplay: true
-});*/
-		

@@ -2,17 +2,27 @@ body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
-	color: #6c7279; /*цвет текста*/
-	-webkit-font-smoothing: antialiased; /* сглаживание шрифтов*/
+	color: #6c7279;
+	/*цвет текста*/
+	-webkit-font-smoothing: antialiased;
+	/* сглаживание шрифтов*/
 
-	background-color: #FFFFFF;
+	background: #fff;
 }
 
-*, *:before, *after {
-	box-sizing: border-box; /*блок ограничен фиксировано даже если есть padding*/
+*,
+*:before,
+*after {
+	box-sizing: border-box;
+	/*блок ограничен фиксировано даже если есть padding*/
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 }
 
@@ -87,10 +97,11 @@ p {
 	width: 100%;
 	padding-top: 50px;
 
-	background: url("../images/intro-bg-smooth.jpg") center no-repeat;
+	background: url("../images/intro-bg.png") center no-repeat;
 	background-size: cover;
 	cursor: default;
 }
+
 
 .intro__inner {
 	width: 100%;
@@ -109,11 +120,11 @@ p {
 	text-transform: uppercase;
 
 	-webkit-text-stroke-width: 1px;
- 	-webkit-text-stroke-color: #000;
+	-webkit-text-stroke-color: #000;
 }
 
 #befit {
- 	color: #FF0A12;
+	color: #FF0A12;
 }
 
 
@@ -122,8 +133,8 @@ p {
 .separator {
 	margin: 3%;
 	border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	height: 0px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .content h1 {
@@ -150,6 +161,7 @@ p {
 	padding: 2%;
 
 	border-radius: 3%;
+	cursor: default;
 
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.185), 0 10px 10px rgba(0, 0, 0, 0.185);
 	transition: box-shadow 0.5s linear;
@@ -167,15 +179,15 @@ p {
 	padding-top: 25px;
 }
 
+/* SLIDER */
 
+.reviews__photo {
+	height: 100vh;
+}
 
-/*
-.click-item:active {
-	border: none;
-}*/
+/* FOOTER */
 
-
-/*.photo {
-	position: relative;
-	margin: 50px auto;
-} */
+.footer {
+	height: 300px;
+	background-color: #6c7279;
+}
